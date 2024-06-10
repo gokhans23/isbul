@@ -1,0 +1,62 @@
+.header {
+    text-align: center;
+    padding: 40px;
+    background-color: #fbfbfb; 
+    font-family: 'Nunito', sans-serif;
+}
+
+.header h1 {
+    color: #2253af; 
+    font-size: 28px; 
+    margin-bottom: 5px; 
+    font-family: 'Nunito', sans-serif;
+}
+
+.subtitle {
+    color: #707079; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    text-align: center; 
+    font-weight: 700;
+    margin-bottom: 5px; 
+}
+
+.subtitle span {
+    display: block;
+    text-align: center;
+    margin-top: 5px; 
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 600px; 
+}
+
+.search-bar input {
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    font-size: 20px;
+    padding-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500; 
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px; 
+    color: #2253af; 
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+}

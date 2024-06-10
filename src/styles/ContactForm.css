@@ -1,0 +1,103 @@
+.contact-form {
+    text-align: center;
+    padding: 40px;
+    background-color: #fbfbfb; 
+    width: 100%;
+    font-family: 'Nunito', sans-serif; 
+}
+
+.title {
+    color: #2253af; 
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #1e1e1e; 
+    border-bottom: 2px solid transparent;
+    margin: 0 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tab.active {
+    border-bottom: 2px solid #2253af; 
+}
+
+.form-container {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.form-container.exiting {
+    opacity: 0;
+}
+
+form {
+    max-width: 850px; 
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px; 
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: rgba(101,101,110,255); 
+    font-size: 18px; 
+    margin-bottom: 5px;
+}
+
+.form-group label span {
+    color: red; 
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #2253af; 
+    border-radius: 5px;
+    font-size: 16px; 
+    background-color: #f8f8f8; 
+    color: #2253af;
+    font-weight: 500px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #ccc; 
+}
+
+.form-group textarea {
+    height: 150px; 
+    resize: vertical;
+}
+
+button {
+    width: 100%; 
+    padding: 15px; 
+    background-color: #2253af; 
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s;
+    margin-left: 13px;
+}
+
+button:hover {
+    background-color: #1a4180; 
+}
